@@ -1,0 +1,15 @@
+name: XcodePreviewWithUIKit
+targets:
+    XcodePreviewWithUIKit:
+        type: application
+        platform: iOS
+        deplaymentTarget: "11.0"
+        sources: XcodePreviewWithUIKit
+    XcodePreviewWithUIKitPreview:
+        type: application
+        platform: iOS
+        deplaymentTarget: "13.0"
+        sources: 
+            - XcodePreviewWithUIKit
+            - XcodePreviewWithUIKitPreview
+
